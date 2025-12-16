@@ -22,9 +22,17 @@ It allows the user to specify a subject or topic.
 
 It generates quiz questions based on the difficulty level selected via the GUI (e.g., Easy, Medium, Hard).
 
-## Screeshots of input and output
-
+## Screeshots of input given and output recieved from the program
+- **Timetable generation**
 ![Timetable prompt](/screenshots/timetable/input.png)
+![Generated timetable](/screenshots/timetable)
+
+- **TODO LIST**
+  ![Todo LIST ](/screenshots/todolist.png)
+
+- **Quiz Generation**
+  ![Quiz Questions](/screenshots/quiz/result.png)
+  ![Quiz Prompt and result](/screenshots/quiz/result.png)
 
 ## 🚀 **Quick Start**
 
