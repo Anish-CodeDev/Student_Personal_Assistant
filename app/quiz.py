@@ -87,7 +87,7 @@ class QuizFrame(wx.Frame):
         
         # Add some initial text
         self.add_text("Welcome to the Quiz! Answer with the choice of number 1,2,3,4", wx.Colour(255, 255, 255), 18) # Gold color
-        self.add_text("Question: ", wx.Colour(255, 255, 255), 18) 
+        self.add_text("Question 1:", wx.Colour(255, 255, 255), 18) 
         self.add_text(self.res[self.i]['question'], wx.Colour(255, 255, 255), 12)
         self.add_text("Options: ", wx.Colour(255, 255, 255), 18) 
         for option in self.res[self.i]['answers']:
@@ -118,14 +118,14 @@ class QuizFrame(wx.Frame):
         #self.add_text(f"System: Received '{text}'", wx.Colour(100, 255, 100))
         self.i = self.i+1
         if self.i < len(self.res):
-            self.add_text("Question: ", wx.Colour(255, 255, 255), 18) 
+            self.add_text(f"Question {self.i+1}: ", wx.Colour(255, 255, 255), 18) 
             self.add_text(self.res[self.i]['question'], wx.Colour(255, 255, 255), 12)
             self.add_text("Options: ", wx.Colour(255, 255, 255), 18) 
             for option in self.res[self.i]['answers']:
                 self.add_text(option, wx.Colour(255, 255, 255), 12)
         else:
             self.add_text("Quiz Over!", wx.Colour(144, 238, 144), 18)
-            self.add_text(f"Your score is {self.score}", wx.Colour(144, 238, 144), 18)
+            #self.add_text(f"Your score is {self.score}", wx.Colour(144, 238, 144), 18)
             
             with open('data/score.txt','w') as f:
                 f.write(str(self.score) + " " + str(self.score/len(self.res)*100))
