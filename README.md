@@ -25,6 +25,7 @@ It generates quiz questions based on the difficulty level selected via the GUI (
 ## Screeshots of input given and output recieved from the program
 - **Timetable generation**
 ![Timetable prompt](/screenshots/timetable/input.png)
+
 ![Generated timetable](/screenshots/timetable/output.png)
 
 - **TODO LIST**
@@ -32,6 +33,7 @@ It generates quiz questions based on the difficulty level selected via the GUI (
 
 - **Quiz Generation**
   ![Quiz Questions](/screenshots/quiz/question_1.png)
+  
   ![Quiz Prompt and result](/screenshots/quiz/result.png)
 
 ## 🚀 **Quick Start**
