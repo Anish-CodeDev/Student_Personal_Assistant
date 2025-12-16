@@ -207,7 +207,7 @@ app = graph.compile()
 
 conversational_history = []
 def call_agent(history):
-    result = app.invoke({"messages":history[-3:]})
+    result = app.invoke({"messages":history})
     history = result['messages']
     print("AI: ",dict(history[-1])['content'])
     try:
