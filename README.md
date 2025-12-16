@@ -22,6 +22,10 @@ It allows the user to specify a subject or topic.
 
 It generates quiz questions based on the difficulty level selected via the GUI (e.g., Easy, Medium, Hard).
 
+## Screeshots of input and output
+
+![Timetable prompt](/screenshots/timetable/input.png)
+
 ## 🚀 **Quick Start**
 
 Follow these steps to get the Student Personal Assistant up and running on your local machine.
