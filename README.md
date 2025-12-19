@@ -56,7 +56,12 @@ Use git to download the project files.
 `git clone https://github.com/Anish-CodeDev/Student_Personal_Assistant/`
 
 `cd Student_Personal_Assistant`
+#### Create and initialize the virtual environment
+`python -m venv venv`
 
+Open powershell in the same directory and run:
+
+`venv\Scripts\Activate.ps1`
 
 #### Install Dependencies:
 
@@ -65,6 +70,7 @@ Use git to download the project files.
 
 ### Run the Application:
 Execute the main application file:
+`cd app`
 
 `python app.py`
 
@@ -90,6 +96,3 @@ Agent orchestration: **LangGraph**
 
 We welcome contributions! If you have suggestions for improvements, bug reports, or new features, please submit an issue or open a pull request.
 
-## 📄**License**
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
